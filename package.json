@@ -1,0 +1,34 @@
+{
+  "name": "kaba-electron-rpc",
+  "version": "7.0.1",
+  "description": "My RPC solution for exporting APIs from the electron background process to renderers and webviews.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -e \"require('child_process').spawn(require('electron'), ['./test'], { stdio: 'inherit' })\" --no-force-async-hooks-checks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kabacorp/kaba-electron-rpc.git"
+  },
+  "keywords": [
+    "electron",
+    "rpc",
+    "ipc"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kabacorp/kaba-electron-rpc/issues"
+  },
+  "homepage": "https://github.com/kabacorp/kaba-electron-rpc#readme",
+  "devDependencies": {
+    "arraybuffer-equal": "^1.0.4",
+    "electron": "9.0.0-beta.24",
+    "multicb": "^1.2.1",
+    "tape": "^4.6.0",
+    "tape-dom": "0.0.10",
+    "zerr": "^1.0.4"
+  },
+  "dependencies": {
+    "duplexer": "^0.1.1"
+  }
+}
