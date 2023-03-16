@@ -1,5 +1,5 @@
 {
-  "name": "@kabacorp/kaba-electron-rpc",
+  "name": "kaba-electron-rpc",
   "version": "7.0.1",
   "description": "My RPC solution for exporting APIs from the electron background process to renderers and webviews.",
   "main": "index.js",
