@@ -22,13 +22,13 @@
   "homepage": "https://github.com/kabacorp/kaba-electron-rpc#readme",
   "devDependencies": {
     "arraybuffer-equal": "^1.0.4",
-    "electron": "9.0.0-beta.24",
     "multicb": "^1.2.1",
     "tape": "^4.6.0",
     "tape-dom": "0.0.10",
     "zerr": "^1.0.4"
   },
   "dependencies": {
-    "duplexer": "^0.1.1"
+    "duplexer": "^0.1.1",
+    "lodash": "^4.17.21"
   }
 }
