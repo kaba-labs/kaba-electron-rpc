@@ -1,5 +1,5 @@
 {
-  "name": "kaba-electron-rpc",
+  "name": "@kabacorp/kaba-electron-rpc",
   "version": "7.0.1",
   "description": "My RPC solution for exporting APIs from the electron background process to renderers and webviews.",
   "main": "index.js",
@@ -10,11 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/kabacorp/kaba-electron-rpc.git"
   },
-  "keywords": [
-    "electron",
-    "rpc",
-    "ipc"
-  ],
+  "keywords": ["electron", "rpc", "ipc"],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kabacorp/kaba-electron-rpc/issues"
