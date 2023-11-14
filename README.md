@@ -1,4 +1,4 @@
-# kaba-electron-rpc
+# pauls-electron-rpc
 
 Features:
 
@@ -33,7 +33,7 @@ module.exports = {
 In the main electron process:
 
 ```js
-var rpc = require('kaba-electron-rpc')
+var rpc = require('pauls-electron-rpc')
 var manifest = require('./example-api-manifest')
 var fs = require('fs')
 
@@ -55,7 +55,7 @@ api.on('error', console.log)
 In the renderer or webview process:
 
 ```js
-var rpc = require('kaba-electron-rpc')
+var rpc = require('pauls-electron-rpc')
 var manifest = require('./example-api-manifest')
 
 // import over the 'example-api' channel

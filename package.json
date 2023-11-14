@@ -1,6 +1,6 @@
 {
-  "name": "@kabacorp/kaba-electron-rpc",
-  "version": "7.1.2",
+  "name": "pauls-electron-rpc",
+  "version": "7.0.1",
   "description": "My RPC solution for exporting APIs from the electron background process to renderers and webviews.",
   "main": "index.js",
   "scripts": {
@@ -8,23 +8,28 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kabacorp/kaba-electron-rpc.git"
+    "url": "git+https://github.com/pfraze/pauls-electron-rpc.git"
   },
-  "keywords": ["electron", "rpc", "ipc"],
+  "keywords": [
+    "electron",
+    "rpc",
+    "ipc"
+  ],
+  "author": "Paul Frazee <pfrazee@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kabacorp/kaba-electron-rpc/issues"
+    "url": "https://github.com/pfraze/pauls-electron-rpc/issues"
   },
-  "homepage": "https://github.com/kabacorp/kaba-electron-rpc#readme",
+  "homepage": "https://github.com/pfraze/pauls-electron-rpc#readme",
   "devDependencies": {
     "arraybuffer-equal": "^1.0.4",
+    "electron": "9.0.0-beta.24",
     "multicb": "^1.2.1",
     "tape": "^4.6.0",
     "tape-dom": "0.0.10",
     "zerr": "^1.0.4"
   },
   "dependencies": {
-    "duplexer": "^0.1.1",
-    "lodash": "^4.17.21"
+    "duplexer": "^0.1.1"
   }
 }
