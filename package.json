@@ -1,5 +1,5 @@
 {
-  "name": "pauls-electron-rpc",
+  "name": "@kabacorp/pauls-electron-rpc",
   "version": "7.0.1",
   "description": "My RPC solution for exporting APIs from the electron background process to renderers and webviews.",
   "main": "index.js",
@@ -10,11 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/pfraze/pauls-electron-rpc.git"
   },
-  "keywords": [
-    "electron",
-    "rpc",
-    "ipc"
-  ],
+  "keywords": ["electron", "rpc", "ipc"],
   "author": "Paul Frazee <pfrazee@gmail.com>",
   "license": "MIT",
   "bugs": {
